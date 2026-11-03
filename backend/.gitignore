@@ -1,0 +1,11 @@
+# 本地配置、虚拟环境和运行时文件
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 上传文件及本地日志
+uploads/
+*.log

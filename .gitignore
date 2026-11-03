@@ -1,0 +1,29 @@
+﻿# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+backend/.venv/
+.venv/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 敏感配置（真实密钥只放本地）----
+.env
+backend/.env
+!.env.example
+!backend/.env.example
+
+# ---- 运行时产物 ----
+backend/uploads/
+uploads/
+*.db
+*.sqlite3
+*.log
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+# Python 3.11+；版本固定以保证课程项目可复现
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+SQLAlchemy==2.0.41
+alembic==1.15.2
+pydantic==2.11.5
+pydantic-settings==2.9.1
+PyMySQL==1.1.1
+python-jose[cryptography]==3.4.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+python-docx==1.1.2
+PyPDF2==3.0.1
+email-validator==2.2.0
+# FastGPT 真实适配器预留 HTTP 客户端
+httpx==0.28.1
